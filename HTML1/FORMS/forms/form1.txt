@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Example html forms</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="480" border="1" align="center">
+  <tr>
+    <td height="127" colspan="2">
+      <H2>Fill-Out Form Example #1 </H2>
+      This is a very simple fill-out form example. 
+      <P>
+      <FORM action=index.php method=post>
+        A single text entry field goes here: 
+        <INPUT name=entry>
+        <P>Note that it has no default value but one  could easily be added. 
+        <P>To submit the query, press this button: 
+          <INPUT type=submit value="Submit Query">
+      </FORM>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
